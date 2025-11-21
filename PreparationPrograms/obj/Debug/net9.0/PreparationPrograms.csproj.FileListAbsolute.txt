@@ -1,0 +1,14 @@
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/bin/Debug/net9.0/PreparationPrograms
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/bin/Debug/net9.0/PreparationPrograms.deps.json
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/bin/Debug/net9.0/PreparationPrograms.runtimeconfig.json
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/bin/Debug/net9.0/PreparationPrograms.dll
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/bin/Debug/net9.0/PreparationPrograms.pdb
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.GeneratedMSBuildEditorConfig.editorconfig
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.AssemblyInfoInputs.cache
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.AssemblyInfo.cs
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.csproj.CoreCompileInputs.cache
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.dll
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/refint/PreparationPrograms.dll
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.pdb
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.genruntimeconfig.cache
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/ref/PreparationPrograms.dll
