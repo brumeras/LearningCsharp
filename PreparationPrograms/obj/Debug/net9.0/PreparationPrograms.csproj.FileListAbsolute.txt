@@ -12,3 +12,5 @@
 /Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.pdb
 /Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.genruntimeconfig.cache
 /Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/ref/PreparationPrograms.dll
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/obj/Debug/net9.0/PreparationPrograms.sourcelink.json
+/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/bin/Debug/net9.0/files/numbers.txt
