@@ -88,3 +88,6 @@ for (int i = 0; i < alphabethical.Count; i++)
     Console.WriteLine(alphabethical[i].Name);
 }
 
+TotalSalary totalSalary = new TotalSalary();
+double tsalary = totalSalary.GetTotalSalary(employees);
+Console.WriteLine("Total salary: " + tsalary);
