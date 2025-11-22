@@ -1,4 +1,5 @@
 ﻿using PreparationPrograms;
+using PreparationPrograms.LinQ;
 using PreparationPrograms.SlidingWindow;
 Console.WriteLine("Type the line, which you want to reverse");
 string line = Console.ReadLine();
@@ -59,4 +60,31 @@ else
     Console.WriteLine($"'{polin}' is NOT a palindrome. ✗");
 }
 
+Employee employee = new Employee();
+var employees = new List<Employee>
+{
+    new Employee { Name = "Jonas", Salary = 3000 },
+    new Employee { Name = "Petras", Salary = 4500 },
+    new Employee { Name = "Ana", Salary = 3500 }
+};
+
+AverageSalary avgSalary = new AverageSalary();
+double avg = avgSalary.GetAverageSalary(employees);
+Console.WriteLine("Average salary: " + avg);
+
+SalaryHigherThan salaryHigherThan = new SalaryHigherThan();
+List<Employee> highEarners = salaryHigherThan.GetSalaryHigherThan(employees, 3500);
+
+for (int i = 0; i < highEarners.Count; i++)
+{
+    Console.WriteLine(highEarners[i].Name);
+}
+
+ABCorder abcOrder =  new ABCorder();
+List<Employee> alphabethical = abcOrder.GetOrder(employees);
+
+for (int i = 0; i < alphabethical.Count; i++)
+{
+    Console.WriteLine(alphabethical[i].Name);
+}
 
