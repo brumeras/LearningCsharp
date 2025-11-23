@@ -1,4 +1,5 @@
 ﻿using PreparationPrograms;
+using PreparationPrograms.Dictionary;
 using PreparationPrograms.LinQ;
 using PreparationPrograms.SlidingWindow;
 Console.WriteLine("Type the line, which you want to reverse");
@@ -117,3 +118,17 @@ for (int i = 0; i < names.Count; i++)
 {
     Console.WriteLine(names[i]);
 }
+
+//Sukurimas
+ProductPrices products = new ProductPrices();
+Dictionary<string, double> productPrices = new Dictionary<string, double>();
+productPrices = products.ManagePrices();
+
+//Tikrina kaina
+Price p =  new Price();
+double ApplePrice = p.GetProductPrice(productPrices, "Apple");
+Console.WriteLine("Apple price: " + ApplePrice);
+
+MaxPrice maxPrice = new MaxPrice();
+double m =  maxPrice.GetMaxPrice(productPrices);
+Console.WriteLine("Max price: " + m);

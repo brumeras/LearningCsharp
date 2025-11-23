@@ -19,7 +19,7 @@ public class UniqueElements
                 }
             }
             
-            if (isUnique)
+            if(isUnique)
             {
                 uniqueList.Add(array[i]);
             }
