@@ -91,3 +91,7 @@ for (int i = 0; i < alphabethical.Count; i++)
 TotalSalary totalSalary = new TotalSalary();
 double tsalary = totalSalary.GetTotalSalary(employees);
 Console.WriteLine("Total salary: " + tsalary);
+
+MaxSalary maxSalary = new MaxSalary();
+double max = maxSalary.GetMaxSalary(employees);
+Console.WriteLine("Max salary: " + max);
