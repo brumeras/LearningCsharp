@@ -109,3 +109,11 @@ Console.WriteLine($"Has employee 'Jonas'? {hasJonas}");
 MakesMoreThan more =  new MakesMoreThan();
 bool moreThan = more.CheckIfMakesMoreThan(employees, 3500);
 Console.WriteLine($"Makes more than {moreThan}");
+
+//Only Names
+OnlyNames onlyNames = new OnlyNames();
+List<string> names = onlyNames.GetEmployeeNames(employees);
+for (int i = 0; i < names.Count; i++)
+{
+    Console.WriteLine(names[i]);
+}
