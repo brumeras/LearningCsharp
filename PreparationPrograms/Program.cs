@@ -95,3 +95,17 @@ Console.WriteLine("Total salary: " + tsalary);
 MaxSalary maxSalary = new MaxSalary();
 double max = maxSalary.GetMaxSalary(employees);
 Console.WriteLine("Max salary: " + max);
+
+MinSalary minSalary = new MinSalary();
+double min = minSalary.GetMinSalary(employees);
+Console.WriteLine("Min salary: " + min);
+
+//Any
+DoesNameExist checker = new DoesNameExist();
+bool hasJonas = checker.CheckIfNameExist(employees, "Jonas");
+Console.WriteLine($"Has employee 'Jonas'? {hasJonas}");
+
+//All
+MakesMoreThan more =  new MakesMoreThan();
+bool moreThan = more.CheckIfMakesMoreThan(employees, 3500);
+Console.WriteLine($"Makes more than {moreThan}");
