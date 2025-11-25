@@ -1,6 +1,7 @@
 ﻿using PreparationPrograms;
 using PreparationPrograms.Dictionary;
 using PreparationPrograms.LinQ;
+using PreparationPrograms.Paveldejimas;
 using PreparationPrograms.SlidingWindow;
 Console.WriteLine("Type the line, which you want to reverse");
 string line = Console.ReadLine();
@@ -132,3 +133,23 @@ Console.WriteLine("Apple price: " + ApplePrice);
 MaxPrice maxPrice = new MaxPrice();
 double m =  maxPrice.GetMaxPrice(productPrices);
 Console.WriteLine("Max price: " + m);
+
+CityResidents cityResidents = new CityResidents();
+Dictionary<string, List<string>> _residents = new Dictionary<string, List<string>>();
+
+_residents = cityResidents.GetResidents();
+
+ResidentInACity cityResident = new ResidentInACity();
+
+List<string> inVilnius = new List<string>();
+inVilnius = cityResident.GetCityResidents(_residents,"Vilnius");
+inVilnius.ForEach(name => Console.WriteLine(name));
+
+//Paveldejimo dalykai
+var shapes = new List<Shape>
+{
+    new Circle(2),
+    new Rectangle(3, 4)
+};
+
+double totalArea = ShapeCalculator.GetTotalArea(shapes);
