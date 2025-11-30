@@ -1,32 +1,45 @@
 ﻿using PreparationPrograms;
 using PreparationPrograms.Dictionary;
 using PreparationPrograms.LinQ;
+using PreparationPrograms.LogicOnes;
 using PreparationPrograms.Paveldejimas;
 using PreparationPrograms.SlidingWindow;
+
+/*
 Console.WriteLine("Type the line, which you want to reverse");
 string line = Console.ReadLine();
 Reverse text = new Reverse();
 string reversedLine = text.ReverseLine(line);  
 Console.WriteLine(reversedLine); 
+*/
 
+/*
 Console.WriteLine("Type how many elements you want to have in an array");
 int size =  Convert.ToInt32(Console.ReadLine());
 FillingAnArray array1 = new FillingAnArray();
 double[] filledArray = array1.FillingArray(size);
+*/
 
+/*
 SumofArray sumofArray = new SumofArray();
 double sum = sumofArray.ArraySum(filledArray, size);
 Console.WriteLine(sum);
+*/
 
+/*
 BiggestNumber biggestNumber = new BiggestNumber();
 double bigNum = biggestNumber.FindingBiggestNumber(filledArray, size);
 Console.WriteLine(bigNum);
+*/
 
+/*
 Console.WriteLine("Type the line");
 string line1 = Console.ReadLine();
 HowManyTimes times = new HowManyTimes();
 times.HowManyTimesCount(line1);
+*/
 
+/*
 UniqueElements uniqueElements = new UniqueElements();
 double[] unique = uniqueElements.UniqueArray(filledArray);
 Console.WriteLine("Unique elements in an array:");
@@ -34,6 +47,7 @@ for (int i = 0; i < unique.Length; i++)
 {
     Console.WriteLine(unique[i]);
 }
+*/
 
 MovingSum movingSum = new MovingSum(3);
 string[] lines = File.ReadAllLines(@"/Users/semilija25/RiderProjects/PreparationPrograms/PreparationPrograms/files/numbers.txt");
@@ -153,3 +167,17 @@ var shapes = new List<Shape>
 };
 
 double totalArea = ShapeCalculator.GetTotalArea(shapes);
+
+MaxConsecutive maxConsecutive = new MaxConsecutive();
+Console.WriteLine("How many elements will be in an array?");
+int k = Convert.ToInt32(Console.ReadLine());
+int[] array = new int[k];
+
+for (int i = 0; i < k; i++)
+{   
+    Console.WriteLine($"Element {i} will be in an array?");
+    array[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+int maxC = maxConsecutive.GetMaxConsecutive(array);
+Console.WriteLine($"Max consecutive value: {maxC}");
