@@ -181,3 +181,9 @@ for (int i = 0; i < k; i++)
 
 int maxC = maxConsecutive.GetMaxConsecutive(array);
 Console.WriteLine($"Max consecutive value: {maxC}");
+
+CanPlaceFlowers canFlowers = new CanPlaceFlowers();
+Console.WriteLine("How many flowers you want to plant?");
+int n = Convert.ToInt32(Console.ReadLine());
+bool canFlow = canFlowers.CheckIfCanPlaceFlowers(array, n);
+Console.WriteLine($"Can flow flowers: {canFlow}");
