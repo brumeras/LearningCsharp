@@ -1,4 +1,5 @@
 ﻿using PreparationPrograms;
+using PreparationPrograms.DataStructures;
 using PreparationPrograms.Dictionary;
 using PreparationPrograms.LinQ;
 using PreparationPrograms.LogicOnes;
@@ -182,8 +183,17 @@ for (int i = 0; i < k; i++)
 int maxC = maxConsecutive.GetMaxConsecutive(array);
 Console.WriteLine($"Max consecutive value: {maxC}");
 
+/*
 CanPlaceFlowers canFlowers = new CanPlaceFlowers();
 Console.WriteLine("How many flowers you want to plant?");
 int n = Convert.ToInt32(Console.ReadLine());
 bool canFlow = canFlowers.CheckIfCanPlaceFlowers(array, n);
 Console.WriteLine($"Can flow flowers: {canFlow}");
+*/ 
+
+
+FibonacciRecursive recursive = new FibonacciRecursive();
+int n = 3;
+int fib =  recursive.GetFibonacci(n);
+Console.WriteLine($"Fibonacci recursive value: {fib}");
+
